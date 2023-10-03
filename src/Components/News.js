@@ -26,7 +26,6 @@ articles = [
     this.setState({articles:parsedData.articles})
 
   }
-
   render() {
     return (
       <div>
