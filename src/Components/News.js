@@ -30,7 +30,7 @@ articles = [
     return (
       <div>
         <div className="container my-3">
-          <h2>NewsMonkey - Top Headlines</h2>
+          <h2>NewsMonkey - Top Headlines of India</h2>
            <div className="row">
           {this.state.articles.map((element)=> {
             return  <div className="col-md-4" key={element.url}>
