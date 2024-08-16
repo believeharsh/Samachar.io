@@ -38,7 +38,7 @@ async function makeApiRequest(url) {
 app.get("/all-news", async (req, res) => {
   let pageSize = parseInt(req.query.pageSize) || 80;
   let page = parseInt(req.query.page) || 1;
-  let q = req.query.q || 'world'; // Default search query if none provided
+  let q = req.query.q || res.json("Hello"); // Default search query if none provided
 
   let url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(q)}&page=${page}&pageSize=${pageSize}&apiKey=${process.env.API_KEY}`;
   const result = await makeApiRequest(url);
