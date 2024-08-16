@@ -6,7 +6,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: ['https://samachar-io.vercel.app/', 'http://localhost:5173'],
+  origin: ['https://samachar-io-frontend.vercel.app/'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true
 }));
