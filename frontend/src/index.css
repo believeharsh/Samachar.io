@@ -13,13 +13,16 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+.distance {
+    --dis : 
+}
 
 .light-theme {
-    --background: url("https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg");
+    --background: url("https://t3.ftcdn.net/jpg/02/20/91/18/360_F_220911898_L76bNmS7LKGfdDgWtsYDocULFqeDUKug.jpg");
     --primary: #F8FAFC;
     --secondary: #0F172A;
     --txt: #000;
-    --heading: #2dd9fe;
+    --heading: #000;
     --btn-color: #fff;
     --btn-background: #5f99be;
     --search-background: #000;
@@ -28,7 +31,7 @@ html, body {
 }
 
 .dark-theme {
-    --background: url("https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg");
+    --background: url("https://img.freepik.com/premium-photo/line-white-stars-is-shown-this-image_994023-196328.jpg");
     --primary: rgb(30,41,59);
     --secondary: #D5DDF0;
     --txt: #fff;
@@ -58,6 +61,7 @@ nav {
 
 .heading {
     color: var(--heading);
+    font-style:oblique
 }
 
 nav ul {

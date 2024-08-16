@@ -33,10 +33,10 @@ function Header() {
   }
   return (
     <header className="">
-      <nav class="fixed top-0 left-0 w-full h-auto bg-gray-800 z-10 flex items-center justify-around">
-        <h3 class="relative heading font-bold md:basis-1/6 text-2xl xs:basis-4/12 z-50 mb-5 mt-5">
+      <nav class="fixed top-0 left-0 w-full h-auto bg-gray-800 z-10 flex items-center justify-around mb-2">
+        <h1 class="relative heading font-bold md:basis-1/6 text-4xl xs:basis-4/12 z-50 mb-5 mt-5 ">
           Samachar.io
-        </h3>
+        </h1>
 
         <ul
           className={

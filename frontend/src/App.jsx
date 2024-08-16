@@ -11,14 +11,20 @@ import CountryNews from "./components/CountryNews";
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <BrowserRouter>
-        <Header />
+      <div className="mt-2">
+      <Header />
+      </div>
+      
         <Routes>
+      
           <Route path="/" element={<AllNews />} />
           <Route path="/top-headlines/:category" element={<TopHeadlines />} />
           <Route path="/country/:iso" element={<CountryNews />} />
+          
         </Routes>
+        
         {/* <Cards />  */}
         {/* <Footer />   */}
       </BrowserRouter>
